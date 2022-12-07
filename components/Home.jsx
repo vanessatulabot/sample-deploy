@@ -13,7 +13,11 @@ const Home = () => {
         <Head>
             <title>Red Light Enforcement System</title>
             <link rel="icon" href="/favicon.ico" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap"/>
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Solway:wght@400&display=swap"/>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"/>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap"/>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"/>
         </Head>
         <div className={styles.child}>
             <div className={styles.header}>
