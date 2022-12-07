@@ -1,4 +1,5 @@
 import React from 'react'
+import Head from 'next/head'
 import Image from 'next/image'
 import styles from './Home.module.css'
 import Link from 'next/link'
@@ -9,6 +10,11 @@ import Footer from './Footer'
 const Home = () => {
   return (
     <div className={styles.parent}>
+        <Head>
+            <title>Red Light Enforcement System</title>
+            <link rel="icon" href="/favicon.ico" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Solway:wght@400&display=swap"/>
+        </Head>
         <div className={styles.child}>
             <div className={styles.header}>
                 <div className={styles.logo}>
