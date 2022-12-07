@@ -34,9 +34,9 @@ const Home = () => {
                     <Link href="/" className={styles.about}>About</Link>
                     <ScrollDown/>
                 </button>
-                <button className={styles.primary}>
-                    <Link href="/login" className={styles.signin}>SIGN IN</Link>
-                </button>
+                <Link href="/login">
+                    <button className={styles.primary}>SIGN IN</button>
+                </Link> 
                 </div>
             </div>
             <div className={styles.container1}>
@@ -62,7 +62,7 @@ const Home = () => {
                     <p><b>The Red Light Enforcement System</b> is a web application system developed by
                     <span className={styles.pink}> Pink</span>
                     <span className={styles.code}>CodeX</span>.<br/>
-                    This is an automated system that helps traffic enforcement by automatically detecting red light violations and capturing<br/>vehicle images.
+                    This is an automated system that helps traffic enforcement by automatically detecting red light violations and<br/>capturing vehicle images.
                         <br/><br/><br/><br/><br/>
                     </p>
                 </div>
