@@ -1,7 +1,7 @@
 import React from 'react'
+import styles from './Home.module.css'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from './Home.module.css'
 import Link from 'next/link'
 import ScrollUp from './ScrollUp'
 import ScrollDown from './ScrollDown'
@@ -13,16 +13,11 @@ const Home = () => {
         <Head>
             <title>Red Light Enforcement System</title>
             <link rel="icon" href="/favicon.ico" />
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap"/>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Solway:wght@400&display=swap"/>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"/>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&display=swap"/>
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"/>
         </Head>
         <div className={styles.child}>
             <div className={styles.header}>
                 <div className={styles.logo}>
-                    <Image src="/images/sidebar-trafficlight.png"  className={styles.homelogo} width='50' height='50'/>
+                    <Image src="/images/sidebar-trafficlight.png" className={styles.homelogo} width='50' height='50'/>
                     <h3><span className={styles.pink}>Pink</span>
                     <span className={styles.code}>CodeX</span></h3>
                 </div>
