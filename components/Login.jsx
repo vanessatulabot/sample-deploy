@@ -19,7 +19,7 @@ const Login = () => {
             alert(JSON.stringify(values, null, 2)
             )
             resolve(),
-            window.location.href = "/dashboard";
+            window.location = "/dashboard";
           }, 1000)
         })
       }
