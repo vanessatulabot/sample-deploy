@@ -24,7 +24,6 @@ const Login = () => {
         })
       }
 
-
     return (
             <div className={styles.container}>
                 <Head>
@@ -52,22 +51,22 @@ const Login = () => {
                                     })}
                                     />
                                     <InputGroup>
-                                        <Input
-                                        className={styles.inputs}
-                                        mt={2}
-                                        id='password'
-                                        type={show ? 'text' : 'password'}
-                                        placeholder='Enter password'
-                                        {...register('password', {
-                                            required: 'This is required',
-                                            minLength: { value: 5, message: 'Minimum length should be 5' },
-                                        })}
+                                    <Input
+                                    className={styles.inputs}
+                                    mt={2}
+                                    id='password'
+                                    type={show ? 'text' : 'password'}
+                                    placeholder='Enter password'
+                                    {...register('password', {
+                                        required: 'This is required',
+                                        minLength: { value: 5, message: 'Minimum length should be 5' },
+                                    })}
                                     />
-                                        <InputRightElement>
-                                            <Button mt={4}  mr={1} h='1.80rem' size='sm' colorScheme='#042F39' color='white' onClick={handleClick}>
-                                            {show ? 'Hide' : 'Show'}
-                                            </Button>
-                                        </InputRightElement>
+                                    <InputRightElement>
+                                        <Button mt={4}  mr={1} h='1.80rem' size='sm' colorScheme='#042F39' color='white' onClick={handleClick}>
+                                        {show ? 'Hide' : 'Show'}
+                                        </Button>
+                                    </InputRightElement>
                                     </InputGroup>
 
                                     <FormErrorMessage>

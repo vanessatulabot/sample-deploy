@@ -7,6 +7,7 @@ import ScrollUp from './ScrollUp'
 import ScrollDown from './ScrollDown'
 import Footer from './Footer'
 
+
 const Home = () => {
   return (
     <div className={styles.parent}>
