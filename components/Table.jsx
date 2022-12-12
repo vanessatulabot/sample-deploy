@@ -3,7 +3,6 @@ import styles from './Table.module.css'
 import { useTable } from 'react-table'
 //import GetRow1 from './GetRow1'
 //import GetRow2 from './GetRow2'
-eslint-disable-react/jsx-key;
 
 function Table() {
 
