@@ -13,7 +13,7 @@ const Home = () => {
     <div className={styles.parent}>
         <Head>
             <title>Red Light Enforcement System</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/myicon.png" />
         </Head>
         <div className={styles.child}>
             <div className={styles.header}>
