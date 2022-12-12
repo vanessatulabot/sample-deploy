@@ -3,7 +3,7 @@ import styles from './Dashboard.module.css'
 import Head from 'next/head'
 import Header from './Header'
 import Navbar from './Navbar'
-//import Table from './Table'
+import Table from './Table'
 
 
 const Dashboard = () => {
@@ -17,7 +17,7 @@ const Dashboard = () => {
       <Navbar/>
       <div className={styles.content}>
         <h3>Violations</h3>
-        {/*<Table/>*/}
+        <Table/>
       </div>
     </div>
   )
