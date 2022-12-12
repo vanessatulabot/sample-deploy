@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './Table.module.css'
 import { useTable } from 'react-table'
-//import GetRow1 from './GetRow1'
-//import GetRow2 from './GetRow2'
+import GetRow1 from './GetRow1'
+import GetRow2 from './GetRow2'
 
 function Table() {
 
@@ -52,7 +52,7 @@ function Table() {
             loc: 'Congressional Ave, Dasmariñas, Cavite',
             type: 'Red Light',
             status: 'Unverified',
-            //action: <GetRow1/>,
+            action: <GetRow1/>,
        },
        {
             id: '2',
@@ -62,7 +62,7 @@ function Table() {
             loc: 'R-2 Emilio Aguinaldo Hwy, Dasmariñas, Cavite',
             type: 'Red Light',
             status: 'Unverified',
-            //action: <GetRow2/>,
+            action: <GetRow2/>,
        },
     ],
     []
