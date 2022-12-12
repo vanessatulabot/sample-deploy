@@ -15,8 +15,8 @@
 }
 .card {
     transition: 0.3s;
-    margin: 60px 0 0 -110px;
-    width: 500px;
+    margin: 60px 0 0 -90px;
+    width: 480px;
     height: 370px;
     border-radius: 3px;
     padding: 10px;
@@ -55,7 +55,7 @@
     margin-top: 15px;
 }
 .confirmbtn {
-    width: 250px;
+    width: 240px;
     height: 33px;
     margin: 10px 10px 7px 0;
     padding-top: 3px;
@@ -75,7 +75,7 @@
     cursor: pointer;
 }
 .invalidatebtn {
-    width: 250px;
+    width: 240px;
     height: 33px;
     margin-left: 10px;
     padding-top: 3px;
@@ -97,12 +97,12 @@
 .imgdiv {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin-left: 40px;
     transition: 0.3s;
 }
 .image1, .image2, .image3 {
-    width: 700px;
-    height: 350px;
+    width: 685px;
+    height: 345px;
     border: 1px solid #d5d5d5;
     border-radius: 3px;
     margin-bottom: 10px;
@@ -119,16 +119,16 @@
     }
     .card {
         margin: 0px 0 90px 20px;
-        width: 430px;
-        height: 320px;
+        width: 410px;
+        height: 315px;
         transition: 0.3s;
     }
     .label > h3 {
-        font-size: 16px;
+        font-size: 15px;
         text-indent: 10px;
     }
     .label > h4 {
-        font-size: 16px;
+        font-size: 15px;
         margin-left: 10px;
     }
     .button {
@@ -137,27 +137,27 @@
         margin-top: 10px;
     }
     .confirmbtn {
-        width: 200px;
+        width: 190px;
         height: 30px;
         margin: 5px 5px 5px 0;
         font-size: 16px;
     }
     .invalidatebtn {
-        width: 200px;
+        width: 190px;
         height: 30px;
         font-size: 16px;
         margin-left: 5px;
     }
     .imgdiv {
-        margin-left: 20px;
+        margin-left: 15px;
         transition: 0.3s;
     }
     .imgdiv> h3 {
-        margin-left: -20px;
+        margin-left: -15px;
     }
     .image1, .image2, .image3 {
-        width: 400px;
-        height: 250px;
+        width: 380px;
+        height: 240px;
         border: 1px solid #d5d5d5;
         border-radius: 3px;
         margin-bottom: 5px;
